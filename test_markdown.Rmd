@@ -1,0 +1,30 @@
+---
+title: "Test"
+author: "Giuseppe Signorino"
+date: "21/01/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# title
+## subtitle
+### subheading
+
+```{r, echo = FALSE}
+x <- 1:100
+y <- rnorm(100)
+```
+
+![Alt test](https://www.askideas.com/media/49/Leopard-Funny-Bored-Meme-Picture.jpg)
+
+
+```{r}
+plot(y ~ x)
+```
+
+
